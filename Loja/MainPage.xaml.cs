@@ -25,6 +25,32 @@ namespace Loja
         public MainPage()
         {
             this.InitializeComponent();
+            this.NavigationCacheMode = NavigationCacheMode.Enabled;
+        }
+
+        private void linkProd1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Detalhamento));
+        }
+        private void linkProd2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Detalhamento));
+        }
+        private void linkProd3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Detalhamento));
+        }
+        private void linkProd4_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Detalhamento));
+        }
+        private void linkProd5_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Detalhamento));
+        }
+        private void linkProd6_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Detalhamento));
         }
     }
 }
