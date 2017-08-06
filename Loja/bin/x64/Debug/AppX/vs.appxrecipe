@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>67659ec6-575a-4fe4-83eb-3151ca27c81e</PackageIdentityName>
     <PackageIdentityPublisher>CN=Raul</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>5C5DFBE7E6EAA874AE53958A1F774B2D5FB65CCDC23A04EC83D66653DBBEDE29</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>67659ec6-575a-4fe4-83eb-3151ca27c81e_1.0.0.0_x64__sq2h6wrrpmtf2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>67659ec6-575a-4fe4-83eb-3151ca27c81e_sq2h6wrrpmtf2!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-06T15:46:05.892</Modified>
+      <Modified>2017-08-06T21:21:22.231</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.exe">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.exe">
       <PackagePath>entrypoint\Loja.exe</PackagePath>
-      <Modified>2017-08-06T15:46:05.066</Modified>
+      <Modified>2017-08-06T21:21:21.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raul\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,64 +495,88 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T02:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\product-sample150x150.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg">
+      <PackagePath>Assets\coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg</PackagePath>
+      <Modified>2017-08-06T19:45:03.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg">
+      <PackagePath>Assets\girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg</PackagePath>
+      <Modified>2017-08-06T19:45:03.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\patinho-de-pelucia-para-cachorro-americanpets-soft.jpg">
+      <PackagePath>Assets\patinho-de-pelucia-para-cachorro-americanpets-soft.jpg</PackagePath>
+      <Modified>2017-08-06T19:45:03.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg">
+      <PackagePath>Assets\polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg</PackagePath>
+      <Modified>2017-08-06T19:45:03.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg">
+      <PackagePath>Assets\tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg</PackagePath>
+      <Modified>2017-08-06T19:45:03.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg">
+      <PackagePath>Assets\vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg</PackagePath>
+      <Modified>2017-08-06T19:45:03.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-08-06T20:09:29.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\product-sample150x150.png">
       <PackagePath>Assets\product-sample150x150.png</PackagePath>
       <Modified>2017-08-06T12:54:28.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-07-15T11:46:55.679</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-15T11:46:55.679</Modified>
+      <Modified>2017-08-06T20:09:29.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-15T11:46:55.679</Modified>
+      <Modified>2017-08-06T20:09:29.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-15T11:46:55.679</Modified>
+      <Modified>2017-08-06T20:09:29.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-15T11:46:55.679</Modified>
+      <Modified>2017-08-06T20:09:29.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-15T11:46:55.679</Modified>
+      <Modified>2017-08-06T20:09:29.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-15T11:46:55.679</Modified>
+      <Modified>2017-08-06T20:09:29.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-08-06T12:48:26.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.xr.xml">
       <PackagePath>Loja.xr.xml</PackagePath>
-      <Modified>2017-08-06T15:44:39.038</Modified>
+      <Modified>2017-08-06T21:21:21.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-07-15T13:21:12.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-06T15:46:05.577</Modified>
+      <Modified>2017-08-06T21:21:21.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\Loja.exe">
+    <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\Loja.exe">
       <PackagePath>Loja.exe</PackagePath>
-      <Modified>2017-08-06T15:46:05.882</Modified>
+      <Modified>2017-08-06T21:21:22.206</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

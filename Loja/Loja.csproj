@@ -110,15 +110,21 @@
     <None Include="Loja_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\product-sample150x150.png" />
-    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg" />
+    <Content Include="Assets\girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\patinho-de-pelucia-para-cachorro-americanpets-soft.jpg" />
+    <Content Include="Assets\polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg" />
+    <Content Include="Assets\product-sample150x150.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg" />
+    <Content Include="Assets\vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

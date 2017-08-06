@@ -5,33 +5,50 @@
     xmlns:local="using:Loja"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    RequestedTheme="Dark"
     mc:Ignorable="d">
 
-    <StackPanel Padding="25" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot x:Name="rootPivot">
-            <PivotItem Header="Produto 1 (Header Pivot)">
+    <StackPanel Padding="25" Background="AliceBlue">
+        <Pivot x:Name="rootPivot" Foreground="DarkBlue">
+            <PivotItem Header="Coelho Azul">
                 <StackPanel>
-                    <TextBlock Text="Produto 1" FontSize="50"/>
-                    <Image Width="150" Margin="0 25 0 25" Source="Assets/product-sample150x150.png"/>
-                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
-                    <Button Content="Editar" FontSize="20" HorizontalAlignment="Right"/>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" HorizontalAlignment="Center" Text="Coelho de pelúcia azul. Brinquedo para cachorros."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
                 </StackPanel>
             </PivotItem>
-            <PivotItem Header="Produto 2 (Header Pivot)">
+            <PivotItem Header="Girafa">
                 <StackPanel>
-                    <TextBlock Text="Produto 2" FontSize="50"/>
-                    <Image Width="150" Margin="0 25 0 25" Source="Assets/product-sample150x150.png"/>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg"/>
                     <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
-                    <Button Content="Editar" FontSize="20" HorizontalAlignment="Right"/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
                 </StackPanel>
             </PivotItem>
-            <PivotItem Header="Produto 3 (Header Pivot)">
+            <PivotItem Header="Patinho">
                 <StackPanel>
-                    <TextBlock Text="Produto 3" FontSize="50"/>
-                    <Image Width="150" Margin="0 25 0 25" Source="Assets/product-sample150x150.png"/>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/patinho-de-pelucia-para-cachorro-americanpets-soft.jpg"/>
                     <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
-                    <Button Content="Editar" FontSize="20" HorizontalAlignment="Right"/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Polvo">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Tigre">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Vaca">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
                 </StackPanel>
             </PivotItem>
         </Pivot>
