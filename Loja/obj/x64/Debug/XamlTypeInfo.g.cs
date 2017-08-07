@@ -132,17 +132,19 @@ namespace Loja.Loja_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "Loja.Detalhamento";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Loja.MainPage";
+            _typeNameTable[3] = "Loja.EditarPage";
+            _typeNameTable[4] = "Loja.MainPage";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::Loja.Detalhamento);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Loja.MainPage);
+            _typeTable[3] = typeof(global::Loja.EditarPage);
+            _typeTable[4] = typeof(global::Loja.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -178,7 +180,8 @@ namespace Loja.Loja_XamlTypeInfo
         }
 
         private object Activate_0_Detalhamento() { return new global::Loja.Detalhamento(); }
-        private object Activate_3_MainPage() { return new global::Loja.MainPage(); }
+        private object Activate_3_EditarPage() { return new global::Loja.EditarPage(); }
+        private object Activate_4_MainPage() { return new global::Loja.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -205,9 +208,16 @@ namespace Loja.Loja_XamlTypeInfo
                 xamlType = new global::Loja.Loja_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Loja.MainPage
+            case 3:   //  Loja.EditarPage
                 userType = new global::Loja.Loja_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_3_EditarPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Loja.MainPage
+                userType = new global::Loja.Loja_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

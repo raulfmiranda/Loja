@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-06T21:21:22.231</Modified>
+      <Modified>2017-08-07T19:50:11.335</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.exe">
       <PackagePath>entrypoint\Loja.exe</PackagePath>
-      <Modified>2017-08-06T21:21:21.207</Modified>
+      <Modified>2017-08-07T19:50:10.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raul\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -563,7 +563,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.xr.xml">
       <PackagePath>Loja.xr.xml</PackagePath>
-      <Modified>2017-08-06T21:21:21.043</Modified>
+      <Modified>2017-08-07T19:50:10.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -572,11 +572,11 @@
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-06T21:21:21.847</Modified>
+      <Modified>2017-08-07T19:50:11.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\Loja.exe">
       <PackagePath>Loja.exe</PackagePath>
-      <Modified>2017-08-06T21:21:22.206</Modified>
+      <Modified>2017-08-07T19:50:11.329</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

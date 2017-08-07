@@ -217,3 +217,8 @@ c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x64\Debug\Mult
 c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x64\Debug\resources.en-us.resfiles
 c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x64\Debug\resources.en-us.resfiles.intermediate
 c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\EditarPage.xbf
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x64\Debug\EditarPage.g.i.cs
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x64\Debug\EditarPage.g.cs
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x64\Debug\EditarPage.xaml
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x64\Debug\EditarPage.xbf

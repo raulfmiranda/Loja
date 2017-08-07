@@ -14,6 +14,7 @@
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg"/>
                     <TextBlock FontSize="20" TextWrapping="WrapWholeWords" HorizontalAlignment="Center" Text="Coelho de pelúcia azul. Brinquedo para cachorros."/>
                     <Button x:Name="btEditar" Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                    <Button x:Name="btVoltar" Content="Voltar" Click="btVoltar_Click"/>
                 </StackPanel>
             </PivotItem>
             <PivotItem Header="Girafa">

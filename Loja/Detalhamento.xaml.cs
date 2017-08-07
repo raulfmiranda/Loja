@@ -27,6 +27,17 @@ namespace Loja
             this.InitializeComponent();
         }
 
-        
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if(e.Parameter != null)
+            {
+                rootPivot.SelectedIndex = (int)e.Parameter;
+            }
+        }
+
+        private void btVoltar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
