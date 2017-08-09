@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="Loja.Detalhamento"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Loja"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="25" Background="AliceBlue">
+        <Pivot x:ConnectionId='1' x:Name="rootPivot" Foreground="DarkBlue">
+            <PivotItem Header="Coelho Azul">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" HorizontalAlignment="Center" Text="Coelho de pelúcia azul. Brinquedo para cachorros."/>
+                    <Button x:ConnectionId='2' x:Name="btEditar" Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                    <Button x:ConnectionId='3' x:Name="btVoltar" Content="Voltar"                       />
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Girafa">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Patinho">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/patinho-de-pelucia-para-cachorro-americanpets-soft.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Polvo">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Tigre">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Vaca">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                    <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Descrição bem longa deste produto para que as pessoas possam desejar bastante a sua aquisição."/>
+                    <Button Content="Editar" Margin="25" BorderBrush="White" BorderThickness="1" Background="SteelBlue" Foreground="White" FontSize="20" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+        
+    </StackPanel>
+</Page>
+

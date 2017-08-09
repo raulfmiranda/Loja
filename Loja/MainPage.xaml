@@ -20,40 +20,58 @@
                     <RowDefinition Height="1*"/>
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <StackPanel Height="170" Margin="10" BorderBrush="DarkBlue" BorderThickness="1">
-                    <Image x:Name="imgProd1" Height="120" Source="Assets/coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg"/>
+                <StackPanel Height="175" Margin="10" BorderBrush="DarkBlue" BorderThickness="1">
+                    <Image x:Name="imgProd1" Height="120"/>
                     <HyperlinkButton x:Name="linkProd1" Click="linkProd1_Click" HorizontalAlignment="Center">
-                        <TextBlock x:Name="tbProd1" TextWrapping="WrapWholeWords" Text="Coelho Azul"/>
+                        <StackPanel>
+                            <TextBlock x:Name="tbProd1" TextWrapping="WrapWholeWords"/>
+                            <TextBlock x:Name="tbValorProd1" Foreground="Red"/>
+                        </StackPanel>
                     </HyperlinkButton>
                     </StackPanel>
-                <StackPanel Grid.Row="1" Margin="10" Height="170" BorderBrush="DarkBlue" BorderThickness="1">
-                    <Image x:Name="imgProd3" Height="120" Source="Assets/patinho-de-pelucia-para-cachorro-americanpets-soft.jpg"/>
+                <StackPanel Grid.Row="1" Margin="10" Height="175" BorderBrush="DarkBlue" BorderThickness="1">
+                    <Image x:Name="imgProd3" Height="120"/>
                     <HyperlinkButton x:Name="linkProd3" Click="linkProd3_Click" HorizontalAlignment="Center">
-                        <TextBlock x:Name="tbProd3" TextWrapping="WrapWholeWords" Text="Patinho de Pelúcia"/>
+                        <StackPanel>
+                            <TextBlock x:Name="tbProd3" TextWrapping="WrapWholeWords"/>
+                            <TextBlock x:Name="tbValorProd3" Foreground="Red"/>
+                        </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
-                <StackPanel Grid.Row="2" Margin="10" Height="170" BorderBrush="DarkBlue" BorderThickness="1">
-                    <Image x:Name="imgProd5" Height="120" Source="Assets/tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                <StackPanel Grid.Row="2" Margin="10" Height="175" BorderBrush="DarkBlue" BorderThickness="1">
+                    <Image x:Name="imgProd5" Height="120"/>
                     <HyperlinkButton x:Name="linkProd5" Click="linkProd5_Click" HorizontalAlignment="Center">
-                        <TextBlock x:Name="tbProd5" TextWrapping="WrapWholeWords" Text="Tigre de Pelúcia"/>
+                        <StackPanel>
+                            <TextBlock x:Name="tbProd5" TextWrapping="WrapWholeWords"/>
+                            <TextBlock x:Name="tbValorProd5" Foreground="Red"/>
+                        </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
-                <StackPanel Grid.Column="1" Height="170" BorderBrush="DarkBlue" BorderThickness="1">
-                    <Image x:Name="imgProd2" Height="120" Source="Assets/girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg"/>
+                <StackPanel Grid.Column="1" Height="175" BorderBrush="DarkBlue" BorderThickness="1">
+                    <Image x:Name="imgProd2" Height="120"/>
                     <HyperlinkButton x:Name="linkProd2" Click="linkProd2_Click" HorizontalAlignment="Center">
-                        <TextBlock x:Name="tbProd2" TextWrapping="WrapWholeWords" Text="Girafa de Pelúcia"/>
+                        <StackPanel>
+                            <TextBlock x:Name="tbProd2" TextWrapping="WrapWholeWords"/>
+                            <TextBlock x:Name="tbValorProd2" Foreground="Red"/>
+                        </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
-                <StackPanel Grid.Column="1" Grid.Row="1" Height="170" BorderBrush="DarkBlue" BorderThickness="1">
-                    <Image x:Name="imgProd4" Height="120" Grid.Row="1" Source="Assets/polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg"/>
+                <StackPanel Grid.Column="1" Grid.Row="1" Height="175" BorderBrush="DarkBlue" BorderThickness="1">
+                    <Image x:Name="imgProd4" Height="120" Grid.Row="1"/>
                     <HyperlinkButton x:Name="linkProd4" Click="linkProd4_Click" HorizontalAlignment="Center">
-                        <TextBlock x:Name="tbProd4" TextWrapping="WrapWholeWords" Text="Polvo de Pelúcia"/>
+                        <StackPanel>
+                            <TextBlock x:Name="tbProd4" TextWrapping="WrapWholeWords"/>
+                            <TextBlock x:Name="tbValorProd4" Foreground="Red"/>
+                        </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
-                <StackPanel Grid.Column="1" Grid.Row="2" Height="170" BorderBrush="DarkBlue" BorderThickness="1">
-                    <Image x:Name="imgProd6" Height="120" Source="Assets/vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                <StackPanel Grid.Column="1" Grid.Row="2" Height="175" BorderBrush="DarkBlue" BorderThickness="1">
+                    <Image x:Name="imgProd6" Height="120"/>
                     <HyperlinkButton x:Name="linkProd6" Click="linkProd6_Click" HorizontalAlignment="Center">
-                        <TextBlock x:Name="tbProd6" TextWrapping="WrapWholeWords" Text="Vaca de Pelúcia"/>
+                        <StackPanel>
+                            <TextBlock x:Name="tbProd6" TextWrapping="WrapWholeWords"/>
+                            <TextBlock x:Name="tbValorProd6" Foreground="Red"/>
+                        </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
             </Grid>

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-07T19:50:11.335</Modified>
+      <Modified>2017-08-09T12:19:42.837</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Loja.exe">
       <PackagePath>entrypoint\Loja.exe</PackagePath>
-      <Modified>2017-08-07T19:50:10.460</Modified>
+      <Modified>2017-08-09T12:19:42.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raul\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -572,11 +572,11 @@
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-07T19:50:11.010</Modified>
+      <Modified>2017-08-09T12:19:42.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x64\Debug\Core\Loja.exe">
       <PackagePath>Loja.exe</PackagePath>
-      <Modified>2017-08-07T19:50:11.329</Modified>
+      <Modified>2017-08-09T12:19:42.807</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
