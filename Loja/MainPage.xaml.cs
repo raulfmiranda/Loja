@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.SpeechSynthesis;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -24,14 +25,48 @@ namespace Loja
     /// </summary>
     public sealed partial class MainPage : Page
     {
-
+        private List<Produto> produtos;
+        private Info info;
+        private bool iniciou;
+        private MediaElement media;
 
         public MainPage()
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
-            List<Produto> produtos = initProds();
+            this.produtos = initProds();
             InitValuePage(produtos);
+            info = new Info();
+            info.Produtos = this.produtos;
+            media = new MediaElement();
+            this.iniciou = false;
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (this.iniciou && e.Parameter != null)
+            {
+                this.info = (Info)e.Parameter;
+                this.produtos = info.Produtos;
+                InitValuePage(this.produtos);
+            }
+            this.iniciou = true;
+        }
+
+        private async void Falar(int prodId)
+        {
+            // The media object for controlling and playing audio.
+            MediaElement mediaElement = this.media;
+
+            // The object for controlling the speech synthesis engine (voice).
+            var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+
+            // Generate the audio stream from plain text.
+            SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(this.produtos[prodId].Nome);
+
+            // Send the stream to the media object.
+            mediaElement.SetSource(stream, stream.ContentType);
+            mediaElement.Play();
         }
 
         private void InitValuePage(List<Produto> prods)
@@ -97,27 +132,58 @@ namespace Loja
 
         private void linkProd1_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Detalhamento), 0);
+            info.ProdAtual = 0;
+            this.Frame.Navigate(typeof(Detalhamento), info);
         }
         private void linkProd2_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Detalhamento), 1);
+            info.ProdAtual = 1;
+            this.Frame.Navigate(typeof(Detalhamento), info);
         }
         private void linkProd3_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Detalhamento), 2);
+            info.ProdAtual = 2;
+            this.Frame.Navigate(typeof(Detalhamento), info);
         }
         private void linkProd4_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Detalhamento), 3);
+            info.ProdAtual = 3;
+            this.Frame.Navigate(typeof(Detalhamento), info);
         }
         private void linkProd5_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Detalhamento), 4);
+            info.ProdAtual = 4;
+            this.Frame.Navigate(typeof(Detalhamento), info);
         }
         private void linkProd6_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Detalhamento), 5);
+            info.ProdAtual = 5;
+            this.Frame.Navigate(typeof(Detalhamento), info);
+        }
+
+        private void linkImg1_Click(object sender, RoutedEventArgs e)
+        {
+            Falar(0);
+        }
+        private void linkImg2_Click(object sender, RoutedEventArgs e)
+        {
+            Falar(1);
+        }
+        private void linkImg3_Click(object sender, RoutedEventArgs e)
+        {
+            Falar(2);
+        }
+        private void linkImg4_Click(object sender, RoutedEventArgs e)
+        {
+            Falar(3);
+        }
+        private void linkImg5_Click(object sender, RoutedEventArgs e)
+        {
+            Falar(4);
+        }
+        private void linkImg6_Click(object sender, RoutedEventArgs e)
+        {
+            Falar(5);
         }
     }
 }
