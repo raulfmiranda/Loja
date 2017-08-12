@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="Loja.Detalhamento"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Loja"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="25" Background="White">
+        <Pivot x:ConnectionId='1' x:Name="rootPivot" Foreground="Black">
+            <PivotItem x:ConnectionId='2' x:Name="pvProd1">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg"/>
+                    <TextBlock x:ConnectionId='28' x:Name="tbDescProd1" FontSize="20" TextWrapping="WrapWholeWords"/>
+                    <TextBlock x:ConnectionId='29' x:Name="tbValorProd1" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
+                        <Button x:ConnectionId='30' x:Name="btVoltar1" Content="Voltar" Width="110"                        BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
+                        <Button x:ConnectionId='31' x:Name="btEditar1" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20"                        />
+                    </StackPanel>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem x:ConnectionId='3' x:Name="pvProd2">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg"/>
+                    <TextBlock x:ConnectionId='24' x:Name="tbDescProd2" FontSize="20" TextWrapping="WrapWholeWords"/>
+                    <TextBlock x:ConnectionId='25' x:Name="tbValorProd2" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
+                        <Button x:ConnectionId='26' x:Name="btVoltar2" Content="Voltar" Width="110"                        BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
+                        <Button x:ConnectionId='27' x:Name="btEditar2" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20"                        />
+                    </StackPanel>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem x:ConnectionId='4' x:Name="pvProd3">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/patinho-de-pelucia-para-cachorro-americanpets-soft.jpg"/>
+                    <TextBlock x:ConnectionId='20' x:Name="tbDescProd3" FontSize="20" TextWrapping="WrapWholeWords"/>
+                    <TextBlock x:ConnectionId='21' x:Name="tbValorProd3" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
+                        <Button x:ConnectionId='22' x:Name="btVoltar3" Content="Voltar" Width="110"                        BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
+                        <Button x:ConnectionId='23' x:Name="btEditar3" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20"                        />
+                    </StackPanel>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem x:ConnectionId='5' x:Name="pvProd4">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg"/>
+                    <TextBlock x:ConnectionId='16' x:Name="tbDescProd4" FontSize="20" TextWrapping="WrapWholeWords"/>
+                    <TextBlock x:ConnectionId='17' x:Name="tbValorProd4" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
+                        <Button x:ConnectionId='18' x:Name="btVoltar4" Content="Voltar" Width="110"                        BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
+                        <Button x:ConnectionId='19' x:Name="btEditar4" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20"                        />
+                    </StackPanel>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem x:ConnectionId='6' x:Name="pvProd5">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                    <TextBlock x:ConnectionId='12' x:Name="tbDescProd5" FontSize="20" TextWrapping="WrapWholeWords"/>
+                    <TextBlock x:ConnectionId='13' x:Name="tbValorProd5" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
+                        <Button x:ConnectionId='14' x:Name="btVoltar5" Content="Voltar" Width="110"                        BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
+                        <Button x:ConnectionId='15' x:Name="btEditar5" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20"                        />
+                    </StackPanel>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem x:ConnectionId='7' x:Name="pvProd6">
+                <StackPanel>
+                    <Image Width="220" Margin="0 25 0 25" Source="Assets/vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
+                    <TextBlock x:ConnectionId='8' x:Name="tbDescProd6" FontSize="20" TextWrapping="WrapWholeWords"/>
+                    <TextBlock x:ConnectionId='9' x:Name="tbValorProd6" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
+                        <Button x:ConnectionId='10' x:Name="btVoltar6" Content="Voltar" Width="110"                        BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
+                        <Button x:ConnectionId='11' x:Name="btEditar6" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20"                        />
+                    </StackPanel>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+        
+    </StackPanel>
+</Page>
+

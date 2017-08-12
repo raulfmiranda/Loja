@@ -7,8 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Padding="25" Background="AliceBlue">
-        <TextBlock Text="PluShop" Foreground="DarkBlue" TextAlignment="Center" Margin="0 0 0 20" FontSize="50" FontFamily="Snap ITC"/>
+    <StackPanel Padding="25" Background="White">
+        <TextBlock Text="PluShop" Foreground="Black"  TextAlignment="Center" FontSize="50" FontFamily="Impact"/>
+        <TextBlock Text="Loja de bonecos de pelúcia" HorizontalAlignment="Center" Margin="0 0 0 10"/>
         <ScrollViewer VerticalScrollMode="Enabled" Height="400">
             <Grid Height="auto" HorizontalAlignment="Center">
                 <Grid.ColumnDefinitions>
@@ -27,7 +28,7 @@
                     <HyperlinkButton x:Name="linkProd1" Click="linkProd1_Click" HorizontalAlignment="Center">
                         <StackPanel>
                             <TextBlock x:Name="tbProd1" TextWrapping="WrapWholeWords"/>
-                            <TextBlock x:Name="tbValorProd1" Foreground="Red"/>
+                            <TextBlock x:Name="tbValorProd1" Foreground="Green"/>
                         </StackPanel>
                     </HyperlinkButton>
                     </StackPanel>
@@ -38,7 +39,7 @@
                     <HyperlinkButton x:Name="linkProd3" Click="linkProd3_Click" HorizontalAlignment="Center">
                         <StackPanel>
                             <TextBlock x:Name="tbProd3" TextWrapping="WrapWholeWords"/>
-                            <TextBlock x:Name="tbValorProd3" Foreground="Red"/>
+                            <TextBlock x:Name="tbValorProd3" Foreground="Green"/>
                         </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
@@ -49,7 +50,7 @@
                     <HyperlinkButton x:Name="linkProd5" Click="linkProd5_Click" HorizontalAlignment="Center">
                         <StackPanel>
                             <TextBlock x:Name="tbProd5" TextWrapping="WrapWholeWords"/>
-                            <TextBlock x:Name="tbValorProd5" Foreground="Red"/>
+                            <TextBlock x:Name="tbValorProd5" Foreground="Green"/>
                         </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
@@ -60,7 +61,7 @@
                     <HyperlinkButton x:Name="linkProd2" Click="linkProd2_Click" HorizontalAlignment="Center">
                         <StackPanel>
                             <TextBlock x:Name="tbProd2" TextWrapping="WrapWholeWords"/>
-                            <TextBlock x:Name="tbValorProd2" Foreground="Red"/>
+                            <TextBlock x:Name="tbValorProd2" Foreground="Green"/>
                         </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
@@ -71,7 +72,7 @@
                     <HyperlinkButton x:Name="linkProd4" Click="linkProd4_Click" HorizontalAlignment="Center">
                         <StackPanel>
                             <TextBlock x:Name="tbProd4" TextWrapping="WrapWholeWords"/>
-                            <TextBlock x:Name="tbValorProd4" Foreground="Red"/>
+                            <TextBlock x:Name="tbValorProd4" Foreground="Green"/>
                         </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>
@@ -82,7 +83,7 @@
                     <HyperlinkButton x:Name="linkProd6" Click="linkProd6_Click" HorizontalAlignment="Center">
                         <StackPanel>
                             <TextBlock x:Name="tbProd6" TextWrapping="WrapWholeWords"/>
-                            <TextBlock x:Name="tbValorProd6" Foreground="Red"/>
+                            <TextBlock x:Name="tbValorProd6" Foreground="Green"/>
                         </StackPanel>
                     </HyperlinkButton>
                 </StackPanel>

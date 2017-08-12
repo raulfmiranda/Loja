@@ -212,3 +212,13 @@ c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x86\Debug\Mult
 c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x86\Debug\resources.en-us.resfiles
 c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x86\Debug\resources.en-us.resfiles.intermediate
 c:\users\raul\documents\visual studio 2017\Projects\Loja\Loja\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x86\Debug\Detalhamento.xbf
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\bin\x86\Debug\EditarPage.xbf
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\Detalhamento.g.i.cs
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\Detalhamento.g.cs
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\EditarPage.g.i.cs
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\EditarPage.g.cs
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\Detalhamento.xaml
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\EditarPage.xaml
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\Detalhamento.xbf
+C:\Users\Raul\Documents\Visual Studio 2017\Projects\Loja\Loja\obj\x86\Debug\EditarPage.xbf

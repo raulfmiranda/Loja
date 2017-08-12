@@ -7,14 +7,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Padding="25" Background="AliceBlue">
-        <Pivot x:Name="rootPivot" Foreground="DarkBlue">
+    <StackPanel Padding="25" Background="White">
+        <Pivot x:Name="rootPivot" Foreground="Black">
             <PivotItem x:Name="pvProd1">
                 <StackPanel>
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/coelho-de-pelucia-brinquedo-para-caes-sao-pet-azul.jpg"/>
                     <TextBlock x:Name="tbDescProd1" FontSize="20" TextWrapping="WrapWholeWords"/>
-                    <TextBlock x:Name="tbValorProd1" FontSize="25" Foreground="Red"/>
-                    <StackPanel Orientation="Horizontal" Margin="25"  HorizontalAlignment="Center">
+                    <TextBlock x:Name="tbValorProd1" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
                         <Button x:Name="btVoltar1" Content="Voltar" Width="110" Click="btVoltar_Click" BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
                         <Button x:Name="btEditar1" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20" Click="btEditar1_Click"/>
                     </StackPanel>
@@ -24,8 +24,8 @@
                 <StackPanel>
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/girafa-de-pelucia-brinquedo-para-cachorro-sao-pet.jpg"/>
                     <TextBlock x:Name="tbDescProd2" FontSize="20" TextWrapping="WrapWholeWords"/>
-                    <TextBlock x:Name="tbValorProd2" FontSize="25" Foreground="Red"/>
-                    <StackPanel Orientation="Horizontal" Margin="25"  HorizontalAlignment="Center">
+                    <TextBlock x:Name="tbValorProd2" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
                         <Button x:Name="btVoltar2" Content="Voltar" Width="110" Click="btVoltar_Click" BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
                         <Button x:Name="btEditar2" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20" Click="btEditar2_Click"/>
                     </StackPanel>
@@ -35,8 +35,8 @@
                 <StackPanel>
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/patinho-de-pelucia-para-cachorro-americanpets-soft.jpg"/>
                     <TextBlock x:Name="tbDescProd3" FontSize="20" TextWrapping="WrapWholeWords"/>
-                    <TextBlock x:Name="tbValorProd3" FontSize="25" Foreground="Red"/>
-                    <StackPanel Orientation="Horizontal" Margin="25"  HorizontalAlignment="Center">
+                    <TextBlock x:Name="tbValorProd3" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
                         <Button x:Name="btVoltar3" Content="Voltar" Width="110" Click="btVoltar_Click" BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
                         <Button x:Name="btEditar3" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20" Click="btEditar3_Click"/>
                     </StackPanel>
@@ -46,8 +46,8 @@
                 <StackPanel>
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/polvo-de-pelucia-brinquedo-de-cachorro-sao-pet.jpg"/>
                     <TextBlock x:Name="tbDescProd4" FontSize="20" TextWrapping="WrapWholeWords"/>
-                    <TextBlock x:Name="tbValorProd4" FontSize="25" Foreground="Red"/>
-                    <StackPanel Orientation="Horizontal" Margin="25"  HorizontalAlignment="Center">
+                    <TextBlock x:Name="tbValorProd4" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
                         <Button x:Name="btVoltar4" Content="Voltar" Width="110" Click="btVoltar_Click" BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
                         <Button x:Name="btEditar4" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20" Click="btEditar4_Click"/>
                     </StackPanel>
@@ -57,8 +57,8 @@
                 <StackPanel>
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/tigre-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
                     <TextBlock x:Name="tbDescProd5" FontSize="20" TextWrapping="WrapWholeWords"/>
-                    <TextBlock x:Name="tbValorProd5" FontSize="25" Foreground="Red"/>
-                    <StackPanel Orientation="Horizontal" Margin="25"  HorizontalAlignment="Center">
+                    <TextBlock x:Name="tbValorProd5" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
                         <Button x:Name="btVoltar5" Content="Voltar" Width="110" Click="btVoltar_Click" BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
                         <Button x:Name="btEditar5" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20" Click="btEditar5_Click"/>
                     </StackPanel>
@@ -68,8 +68,8 @@
                 <StackPanel>
                     <Image Width="220" Margin="0 25 0 25" Source="Assets/vaca-de-pelucia-brinquedo-de-cachorro-saopet.jpg"/>
                     <TextBlock x:Name="tbDescProd6" FontSize="20" TextWrapping="WrapWholeWords"/>
-                    <TextBlock x:Name="tbValorProd6" FontSize="25" Foreground="Red"/>
-                    <StackPanel Orientation="Horizontal" Margin="25"  HorizontalAlignment="Center">
+                    <TextBlock x:Name="tbValorProd6" FontSize="25" Foreground="Green"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 25 0 0"  HorizontalAlignment="Center">
                         <Button x:Name="btVoltar6" Content="Voltar" Width="110" Click="btVoltar_Click" BorderThickness="1" BorderBrush="SteelBlue" Background="AliceBlue" Foreground="SteelBlue" FontSize="20"/>
                         <Button x:Name="btEditar6" Content="Editar" Width="110" Background="SteelBlue" Foreground="White" FontSize="20" Click="btEditar6_Click"/>
                     </StackPanel>
